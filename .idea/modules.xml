@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/selenium-web-driver.iml" filepath="$PROJECT_DIR$/.idea/modules/selenium-web-driver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/selenium-web-driver_main.iml" filepath="$PROJECT_DIR$/.idea/modules/selenium-web-driver_main.iml" group="selenium-web-driver" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/selenium-web-driver_test.iml" filepath="$PROJECT_DIR$/.idea/modules/selenium-web-driver_test.iml" group="selenium-web-driver" />
+    </modules>
+  </component>
+</project>
