@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da39af9f-ffcf-4866-8d3c-d4384266dd0c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/litecard/shop/MainPageStickers.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/litecart/admin/CountriesGeoZonesSort.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/litecart/admin/TestBase.java" afterPath="$PROJECT_DIR$/src/test/java/litecart/admin/TestBase.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -81,11 +82,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainPageStickers.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/litecard/shop/MainPageStickers.java">
+      <file leaf-file-name="CountriesGeoZonesSort.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/litecart/admin/CountriesGeoZonesSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="36" column="41" lean-forward="false" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+            <state relative-caret-position="1140">
+              <caret line="76" column="24" lean-forward="false" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/litecart/admin/TestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="101">
+              <caret line="24" column="35" lean-forward="false" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -392,11 +405,12 @@
         <option value="$PROJECT_DIR$/src/test/java/simpleTests/FFNightlyOpenPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/simpleTests/FFOpenPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/simpleTests/FFESROpenPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/litecart/admin/TestBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/litecart/admin/Login.java" />
         <option value="$PROJECT_DIR$/src/test/java/litecart/admin/AdminUtils.java" />
         <option value="$PROJECT_DIR$/src/test/java/litecart/admin/MenuCheck.java" />
         <option value="$PROJECT_DIR$/src/test/java/litecard/shop/MainPageStickers.java" />
+        <option value="$PROJECT_DIR$/src/test/java/litecart/admin/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/litecart/admin/CountriesGeoZonesSort.java" />
       </list>
     </option>
   </component>
@@ -574,59 +588,7 @@
       <recent name="simpleTests" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MainPageStickers">
-    <configuration default="false" name="FFESROpenPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="litecart.admin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="selenium-web-driver_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="simpleTests" />
-      <option name="MAIN_CLASS_NAME" value="simpleTests.FFESROpenPage" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="FFNightlyOpenPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="litecart.admin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="selenium-web-driver_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="simpleTests" />
-      <option name="MAIN_CLASS_NAME" value="simpleTests.FFNightlyOpenPage" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.CountriesGeoZonesSort.GeoZonesSortingTest">
     <configuration default="false" name="Login" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -693,6 +655,58 @@
       <option name="MAIN_CLASS_NAME" value="litecard.shop.MainPageStickers" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CountriesGeoZonesSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="litecart.admin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="selenium-web-driver_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="litecart.admin" />
+      <option name="MAIN_CLASS_NAME" value="litecart.admin.CountriesGeoZonesSort" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CountriesGeoZonesSort.GeoZonesSortingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="litecart.admin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="selenium-web-driver_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="litecart.admin" />
+      <option name="MAIN_CLASS_NAME" value="litecart.admin.CountriesGeoZonesSort" />
+      <option name="METHOD_NAME" value="GeoZonesSortingTest" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -910,19 +924,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.FFESROpenPage" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.FFNightlyOpenPage" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.Login" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.MenuCheck" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.MainPageStickers" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.Login" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.MenuCheck" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MainPageStickers" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CountriesGeoZonesSort" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CountriesGeoZonesSort.GeoZonesSortingTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MainPageStickers" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MenuCheck" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.Login" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.FFESROpenPage" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.FFNightlyOpenPage" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CountriesGeoZonesSort.GeoZonesSortingTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CountriesGeoZonesSort" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MainPageStickers" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MenuCheck" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.Login" />
       </list>
     </recent_temporary>
   </component>
@@ -940,40 +954,40 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MainPageStickers - 2017.03.24 at 18h 27m 14s.xml">
-      <configuration name="MainPageStickers" configurationId="JUnit" />
+    <history-entry file="CountriesGeoZonesSort - 2017.03.25 at 23h 42m 25s.xml">
+      <configuration name="CountriesGeoZonesSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainPageStickers - 2017.03.24 at 18h 27m 25s.xml">
-      <configuration name="MainPageStickers" configurationId="JUnit" />
+    <history-entry file="CountriesGeoZonesSort - 2017.03.25 at 23h 44m 03s.xml">
+      <configuration name="CountriesGeoZonesSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainPageStickers - 2017.03.24 at 18h 28m 17s.xml">
-      <configuration name="MainPageStickers" configurationId="JUnit" />
+    <history-entry file="CountriesGeoZonesSort - 2017.03.25 at 23h 46m 01s.xml">
+      <configuration name="CountriesGeoZonesSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainPageStickers - 2017.03.24 at 18h 30m 44s.xml">
-      <configuration name="MainPageStickers" configurationId="JUnit" />
+    <history-entry file="CountriesGeoZonesSort - 2017.03.25 at 23h 47m 03s.xml">
+      <configuration name="CountriesGeoZonesSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainPageStickers - 2017.03.24 at 18h 31m 04s.xml">
-      <configuration name="MainPageStickers" configurationId="JUnit" />
+    <history-entry file="CountriesGeoZonesSort - 2017.03.25 at 23h 48m 55s.xml">
+      <configuration name="CountriesGeoZonesSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainPageStickers - 2017.03.24 at 18h 31m 30s.xml">
-      <configuration name="MainPageStickers" configurationId="JUnit" />
+    <history-entry file="CountriesGeoZonesSort - 2017.03.25 at 23h 49m 22s.xml">
+      <configuration name="CountriesGeoZonesSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainPageStickers - 2017.03.24 at 18h 31m 48s.xml">
-      <configuration name="MainPageStickers" configurationId="JUnit" />
+    <history-entry file="CountriesGeoZonesSort - 2017.03.25 at 23h 50m 32s.xml">
+      <configuration name="CountriesGeoZonesSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainPageStickers - 2017.03.24 at 18h 32m 21s.xml">
-      <configuration name="MainPageStickers" configurationId="JUnit" />
+    <history-entry file="CountriesGeoZonesSort - 2017.03.26 at 00h 06m 08s.xml">
+      <configuration name="CountriesGeoZonesSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainPageStickers - 2017.03.24 at 18h 32m 36s.xml">
-      <configuration name="MainPageStickers" configurationId="JUnit" />
+    <history-entry file="CountriesGeoZonesSort - 2017.03.26 at 00h 13m 58s.xml">
+      <configuration name="CountriesGeoZonesSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainPageStickers - 2017.03.24 at 18h 33m 26s.xml">
-      <configuration name="MainPageStickers" configurationId="JUnit" />
+    <history-entry file="CountriesGeoZonesSort_GeoZonesSortingTest - 2017.03.26 at 00h 18m 05s.xml">
+      <configuration name="CountriesGeoZonesSort.GeoZonesSortingTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -984,19 +998,19 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.453125" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4921875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2328125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18046875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1234375" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.390625" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4265625" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1011,7 +1025,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="11" />
+      <option name="time" value="20" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1082,14 +1096,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/simpleTests/SafariOpenPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="44" column="8" lean-forward="false" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-firefox-driver/3.3.0/33298007f15654c9956c3d44d27938701da05656/selenium-firefox-driver-3.3.0-sources.jar!/org/openqa/selenium/firefox/FirefoxDriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -1118,14 +1124,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
           <caret line="124" column="59" lean-forward="false" selection-start-line="124" selection-start-column="38" selection-end-line="124" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/simpleTests/FFOpenPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="44" column="8" lean-forward="false" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -1196,24 +1194,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/litecart/admin/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="29" column="55" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/litecart/admin/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="20" column="20" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="20" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/litecart/admin/MenuCheck.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-293">
@@ -1224,10 +1204,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/3.3.1/a726389128e139879617c08a0259c533a9d02b08/selenium-api-3.3.1-sources.jar!/org/openqa/selenium/By.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="429" column="0" lean-forward="false" selection-start-line="429" selection-start-column="0" selection-end-line="429" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/litecard/shop/MainPageStickers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="36" column="41" lean-forward="false" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+        <state relative-caret-position="225">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/simpleTests/SafariOpenPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/litecart/admin/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/simpleTests/FFOpenPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="44" column="8" lean-forward="false" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/litecart/admin/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="24" column="35" lean-forward="false" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/litecart/admin/CountriesGeoZonesSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="76" column="24" lean-forward="false" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
