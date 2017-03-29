@@ -38,7 +38,7 @@ public class ShoppingItemProperties extends TestBase {
         shopItemMainPage.click();
         wait.until(titleIs("Yellow Duck | Subcategory | Rubber Ducks | My Store"));
         ShopItem shopItemDetailsPageProp = new ShopItem();
-        //Set ShopItem object properits according to main page
+        //Set ShopItem object properits according to details page
         WebElement shopItemDetailsPage = driver.findElement(By.cssSelector("div#box-product"));
         //Set shopingItem name
         shopItemDetailsPageProp.setName(shopItemDetailsPage.findElement(By.cssSelector("h1.title"))
