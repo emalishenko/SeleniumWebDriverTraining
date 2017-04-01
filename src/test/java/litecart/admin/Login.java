@@ -19,6 +19,7 @@ public class Login extends TestBase{
     public void openPage(){
         login();
         wait.until(titleIs("My Store"));
+
     }
 
 }

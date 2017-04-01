@@ -11,8 +11,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.util.Random;
-
 import static org.openqa.selenium.support.ui.ExpectedConditions.titleIs;
 
 /**
@@ -75,11 +73,5 @@ public class NewUserRegister extends TestBase {
         wait.until(ExpectedConditions
                 .presenceOfElementLocated(By.cssSelector("div#box-account ul.list-vertical li:last-child a")));
         driver.findElement(By.cssSelector("div#box-account ul.list-vertical li:last-child a")).click();
-    }
-
-    private String getRandomString(){
-        Random rnd = new Random();
-        int val = Math.abs(rnd.nextInt());
-        return Integer.toString(val);
     }
 }
