@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da39af9f-ffcf-4866-8d3c-d4384266dd0c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/litecart/admin/AddNewProduct.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/litecard/shop/NewUserRegister.java" afterPath="$PROJECT_DIR$/src/test/java/litecard/shop/NewUserRegister.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/litecart/admin/Login.java" afterPath="$PROJECT_DIR$/src/test/java/litecart/admin/Login.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/litecart/admin/AddNewProduct.java" afterPath="$PROJECT_DIR$/src/test/java/litecart/admin/AddNewProduct.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/litecart/admin/TestBase.java" afterPath="$PROJECT_DIR$/src/test/java/litecart/admin/TestBase.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -87,8 +85,30 @@
       <file leaf-file-name="AddNewProduct.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/litecart/admin/AddNewProduct.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="96" column="8" lean-forward="false" selection-start-line="96" selection-start-column="8" selection-end-line="96" selection-end-column="8" />
+            <state relative-caret-position="30">
+              <caret line="60" column="71" lean-forward="false" selection-start-line="60" selection-start-column="71" selection-end-line="60" selection-end-column="71" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReflectiveCallable.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/litecart/admin/TestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-362">
+              <caret line="33" column="8" lean-forward="false" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,20 +119,8 @@
       <file leaf-file-name="NewUserRegister.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/litecard/shop/NewUserRegister.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-79">
-              <caret line="38" column="94" lean-forward="true" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="94" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/litecart/admin/TestBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+            <state relative-caret-position="225">
+              <caret line="26" column="44" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -432,15 +440,15 @@
         <option value="$PROJECT_DIR$/src/test/java/litecard/shop/ShoppingItemProperties.java" />
         <option value="$PROJECT_DIR$/src/test/java/litecart/admin/Login.java" />
         <option value="$PROJECT_DIR$/src/test/java/litecard/shop/NewUserRegister.java" />
-        <option value="$PROJECT_DIR$/src/test/java/litecart/admin/TestBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/litecart/admin/AddNewProduct.java" />
+        <option value="$PROJECT_DIR$/src/test/java/litecart/admin/TestBase.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="709" />
+    <option name="height" value="712" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -990,39 +998,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AddNewProduct - 2017.04.01 at 23h 37m 18s.xml">
+    <history-entry file="AddNewProduct - 2017.04.02 at 11h 25m 03s.xml">
       <configuration name="AddNewProduct" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddNewProduct - 2017.04.01 at 23h 39m 09s.xml">
+    <history-entry file="AddNewProduct - 2017.04.02 at 11h 25m 31s.xml">
       <configuration name="AddNewProduct" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddNewProduct - 2017.04.01 at 23h 39m 50s.xml">
+    <history-entry file="AddNewProduct - 2017.04.02 at 11h 26m 18s.xml">
       <configuration name="AddNewProduct" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddNewProduct - 2017.04.01 at 23h 40m 50s.xml">
+    <history-entry file="AddNewProduct - 2017.04.02 at 11h 32m 09s.xml">
       <configuration name="AddNewProduct" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddNewProduct - 2017.04.01 at 23h 43m 04s.xml">
+    <history-entry file="AddNewProduct - 2017.04.02 at 11h 33m 53s.xml">
       <configuration name="AddNewProduct" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddNewProduct - 2017.04.01 at 23h 52m 39s.xml">
+    <history-entry file="AddNewProduct - 2017.04.02 at 11h 36m 53s.xml">
       <configuration name="AddNewProduct" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddNewProduct - 2017.04.01 at 23h 58m 51s.xml">
+    <history-entry file="AddNewProduct - 2017.04.02 at 12h 07m 41s.xml">
       <configuration name="AddNewProduct" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddNewProduct - 2017.04.02 at 00h 00m 57s.xml">
+    <history-entry file="AddNewProduct - 2017.04.02 at 12h 08m 02s.xml">
       <configuration name="AddNewProduct" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddNewProduct - 2017.04.02 at 00h 05m 42s.xml">
+    <history-entry file="AddNewProduct - 2017.04.02 at 12h 09m 58s.xml">
       <configuration name="AddNewProduct" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddNewProduct - 2017.04.02 at 00h 06m 59s.xml">
+    <history-entry file="AddNewProduct - 2017.04.02 at 12h 11m 11s.xml">
       <configuration name="AddNewProduct" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="709" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="712" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1034,19 +1042,19 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3390625" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45567653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20703125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.259375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1234375" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3109375" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30948678" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1075,7 +1083,7 @@
           <option name="timeStamp" value="47" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="58" />
+      <option name="time" value="60" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1270,16 +1278,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/litecard/shop/MainPageStickers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="32" column="55" lean-forward="false" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/litecard/shop/ShopItem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1327,20 +1325,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/litecart/admin/TestBase.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/litecard/shop/MainPageStickers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+        <state relative-caret-position="195">
+          <caret line="32" column="55" lean-forward="false" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/litecard/shop/NewUserRegister.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="26" column="44" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/litecard/shop/NewUserRegister.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-79">
-          <caret line="38" column="94" lean-forward="true" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="94" />
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/litecart/admin/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-362">
+          <caret line="33" column="8" lean-forward="false" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1349,8 +1363,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/litecart/admin/AddNewProduct.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="96" column="8" lean-forward="false" selection-start-line="96" selection-start-column="8" selection-end-line="96" selection-end-column="8" />
+        <state relative-caret-position="30">
+          <caret line="60" column="71" lean-forward="false" selection-start-line="60" selection-start-column="71" selection-end-line="60" selection-end-column="71" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

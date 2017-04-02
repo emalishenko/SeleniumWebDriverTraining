@@ -6,6 +6,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+
 import java.time.LocalDate;
 import java.util.List;
 
@@ -48,40 +50,33 @@ public class AddNewProduct extends TestBase {
         driver.findElement(By.cssSelector(".index li:nth-child(2)")).click();
         wait.until(ExpectedConditions
                 .presenceOfElementLocated(By.cssSelector("select[name=manufacturer_id]")));
-//        driver.findElement(By.cssSelector("select[name=manufacturer_id]"))
-//                .sendKeys(Keys.ARROW_DOWN, Keys.ARROW_DOWN, Keys.ENTER);
-//        wait.until(ExpectedConditions
-//                .presenceOfElementLocated(By.cssSelector("select[name=manufacturer_id]")));
+        Select manufacturerSelect = new Select(driver.findElement(By.cssSelector("select[name=manufacturer_id]")));
+        manufacturerSelect.selectByValue("1");
         driver.findElement(By.cssSelector("input[name=keywords]"))
                 .sendKeys("keyword " + productPref);
-        driver.findElement(By.cssSelector("input[name='short_description[en]'"))
+        driver.findElement(By.cssSelector("input[name='short_description[en]']"))
                 .sendKeys(productPref + " short description");
         driver.findElement(By.cssSelector("div.trumbowyg-editor"))
                 .sendKeys("Product " + productPref + " description");
-        driver.findElement(By.cssSelector("input[name='head_title[en]'"))
+        driver.findElement(By.cssSelector("input[name='head_title[en]']"))
                 .sendKeys("Product " + productPref + " head title");
         driver.findElement(By.cssSelector("input[name='meta_description[en]']"))
                 .sendKeys("Product " + productPref + " meta description");
 
         //Fill in Prices tab
         driver.findElement(By.cssSelector(".index li:nth-child(4)")).click();
-//        wait.until(ExpectedConditions
-//                .presenceOfElementLocated(By.cssSelector("select[name=purchase_price]")));
+        Select currencySelect = new Select(driver
+                .findElement(By.cssSelector("select[name=purchase_price_currency_code]")));
+        currencySelect.selectByValue("EUR");
         driver.findElement(By.cssSelector("input[name=purchase_price]")).clear();
         driver.findElement(By.cssSelector("input[name=purchase_price]")).sendKeys("12.03");
-        driver.findElement(By.cssSelector("input[name='prices[USD]']")).clear();
         driver.findElement(By.cssSelector("input[name='prices[USD]']")).sendKeys("5.16");
-        driver.findElement(By.cssSelector("input[name='gross_prices[USD]'")).clear();
-        driver.findElement(By.cssSelector("input[name='gross_prices[USD]'")).sendKeys("6.77");
-        driver.findElement(By.cssSelector("input[name='prices[EUR]']")).clear();
         driver.findElement(By.cssSelector("input[name='prices[EUR]']")).sendKeys("3");
-        driver.findElement(By.cssSelector("input[name='gross_prices[EUR]']")).clear();
-        driver.findElement(By.cssSelector("input[name='gross_prices[EUR]']")).sendKeys("4.0");
 
         //Submit product creating
         driver.findElement(By.cssSelector("button[name=save]")).click();
 
-        //Check is the product is added
+        //Check if the product is added
         wait.until(ExpectedConditions
                 .presenceOfElementLocated(By.cssSelector("table.dataTable")));
         List<WebElement> products = driver.findElements(By
@@ -94,7 +89,7 @@ public class AddNewProduct extends TestBase {
         }
         Assert.assertEquals(Integer.toString(productsCreated)
                 + " products have been created instead of 1", 1, productsCreated);
-        
+
 
     }
 
