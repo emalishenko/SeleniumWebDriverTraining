@@ -24,7 +24,6 @@ public class NewUserRegister extends TestBase {
         String email = getRandomString() + "@domain.com";
         String password = "password";
 
-        driver.manage().window().maximize();
         driver.get("http://localhost/litecart");
         wait.until(titleIs("Online Store | My Store"));
         //Open register page

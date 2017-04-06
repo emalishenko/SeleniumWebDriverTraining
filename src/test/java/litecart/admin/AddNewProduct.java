@@ -19,9 +19,10 @@ public class AddNewProduct extends TestBase {
 
     @Test
     public void AddProduct(){
+        login();
         String productPref = getRandomString();
         System.out.println("Product " + productPref + " will be created");
-        login();
+
         wait.until(ExpectedConditions
                 .presenceOfElementLocated(By.cssSelector("ul#box-apps-menu li:nth-child(2)")));
         driver.findElement(By.cssSelector("ul#box-apps-menu li:nth-child(2)")).click();
