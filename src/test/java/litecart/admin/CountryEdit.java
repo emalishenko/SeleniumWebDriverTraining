@@ -21,7 +21,8 @@ public class CountryEdit extends TestBase {
     public void CountryEditTest(){
         login();
         wait.until(titleIs("My Store"));
-        driver.findElement(By.cssSelector("ul#box-apps-menu li#app-:nth-child(3)")).click();
+        //driver.findElement(By.cssSelector("ul#box-apps-menu li:nth-child(3)")).click();
+        driver.get("http://localhost/litecart/admin/?app=countries&doc=countries");
         wait.until(presenceOfElementLocated(By.cssSelector("form[name=countries_form] .row")));
         driver.findElement(By.cssSelector("form[name=countries_form] .row"))
                 .findElement(By.cssSelector("td:nth-child(5) a")).click();
@@ -33,19 +34,18 @@ public class CountryEdit extends TestBase {
         for(WebElement link:externalLinks){
             String mainWindow = driver.getWindowHandle();
             link.click();
-            linkUrl = link.findElement(By.xpath("..")).getAttribute("href");
-            System.out.println("Link URL" + linkUrl);
+            linkUrl = link.findElement(By.xpath("..")).getAttribute("pathname");
+            System.out.println("Link URL " + linkUrl);
             String newWindow = getAnotherWindow(mainWindow);
             driver.switchTo().window(newWindow);
             pageUrl = driver.getCurrentUrl();
-            System.out.println("Page URL" + pageUrl);
-            //Assert.assertTrue("Incorrect page is opened",linkUrl.equals(pageUrl));
+            System.out.println("Page URL " + pageUrl);
+            //Assert.assertTrue("Incorrect page is opened",pageUrl.endsWith(linkUrl));
             driver.close();
             driver.switchTo().window(mainWindow);
         }
-
-        //driver.findElement(By.cssSelector("")).click();
     }
+
 private String getAnotherWindow(String mainWindow) {
         wait.until(numberOfWindowsToBe(2));
         Set<String> allHandlers = driver.getWindowHandles();

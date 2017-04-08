@@ -31,9 +31,9 @@ public class TestBase {
 
     @Before
     public void start(){
-        driver = new ChromeDriver();
+        //driver = new ChromeDriver();
         //driver = new SafariDriver();
-        //driver = new FirefoxDriver();
+        driver = new FirefoxDriver();
         wait = new WebDriverWait(driver,30);
         driver.manage().window().maximize();
     }
