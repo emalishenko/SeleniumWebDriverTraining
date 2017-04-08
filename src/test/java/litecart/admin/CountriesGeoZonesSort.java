@@ -18,7 +18,7 @@ public class CountriesGeoZonesSort extends TestBase {
     public void CountriesSortingTest(){
         login();
         driver.get("http://localhost/litecart/admin/?app=countries&doc=countries");
-        List<WebElement> countiresWebElems = driver.findElements(By.cssSelector("table.dataTable td:nth-child(5)"));
+        List<WebElement> countiresWebElems = driver.findElements(By.cssSelector("td#sidebar td:nth-child(5)"));
         Assert.assertEquals("Countries list is not sorted alphabetically",
                 isSorted(countiresWebElems, "textContent"), true);
     }
