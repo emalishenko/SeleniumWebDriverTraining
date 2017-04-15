@@ -22,7 +22,7 @@ public class CountryEdit extends TestBase {
         login();
         wait.until(titleIs("My Store"));
         //driver.findElement(By.cssSelector("ul#box-apps-menu li:nth-child(3)")).click();
-        driver.get("http://localhost/litecart/admin/?app=countries&doc=countries");
+        driver.get(SHOP_URL + "litecart/admin/?app=countries&doc=countries");
         wait.until(presenceOfElementLocated(By.cssSelector("form[name=countries_form] .row")));
         driver.findElement(By.cssSelector("form[name=countries_form] .row"))
                 .findElement(By.cssSelector("td:nth-child(5) a")).click();
