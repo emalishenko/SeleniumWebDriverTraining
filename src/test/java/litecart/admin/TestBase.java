@@ -33,7 +33,7 @@ public class TestBase {
     protected WebDriverWait wait;
 
     public static final String PRODUCT_IMAGE_PATH ="media/product.jpg";
-    public static final String SHOP_URL ="http://192.168.0.13/";
+    public static final String SHOP_URL ="http://localhost/";
 
     public static final String USERNAME = "olenamalishenko1";
     public static final String AUTOMATE_KEY = "V3S2qTHkQHLxfZnLvWyq";
@@ -45,6 +45,7 @@ public class TestBase {
 
         //Local
         driver = new ChromeDriver();
+        //System.out.println(driver.manage().logs().getAvailableLogTypes());
         //driver = new SafariDriver();
         //driver = new FirefoxDriver();
 
