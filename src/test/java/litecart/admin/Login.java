@@ -17,8 +17,8 @@ public class Login extends TestBase{
 
     @Test
     public void openPage(){
-        login();
-        wait.until(titleIs("My Store"));
+//        login();
+//        wait.until(titleIs("My Store"));
 
     }
 

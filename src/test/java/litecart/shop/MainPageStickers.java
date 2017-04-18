@@ -1,4 +1,4 @@
-package litecard.shop;
+package litecart.shop;
 
 import org.junit.After;
 import org.junit.Assert;

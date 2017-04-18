@@ -1,8 +1,8 @@
-package litecart.admin;
+package pageobject.tests;
 
-import pageobject.app.Application;
 import org.junit.After;
 import org.junit.Before;
+import pageobject.app.Application;
 
 import java.net.MalformedURLException;
 

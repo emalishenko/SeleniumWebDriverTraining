@@ -12,11 +12,11 @@ import static org.openqa.selenium.support.ui.ExpectedConditions.titleIs;
 public class CheckLogs extends TestBase {
     @Test
     public void Logs(){
-        driver.get("http://software-testing.ru/");
-        wait.until(titleIs("Software-Testing.Ru"));
-        for (LogEntry l:driver.manage().logs().get("browser").getAll())
-        {
-            System.out.println(l);
-        }
+//        driver.get("http://software-testing.ru/");
+//        wait.until(titleIs("Software-Testing.Ru"));
+//        for (LogEntry l:driver.manage().logs().get("browser").getAll())
+//        {
+//            System.out.println(l);
+//        }
     }
 }

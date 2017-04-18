@@ -14,13 +14,13 @@ public class BrowserstackTest extends TestBase {
 
     @Test
     public void test() throws Exception {
-        driver.get("https://www.google.com/ncr");
-        WebElement element = driver.findElement(By.name("q"));
-        element.sendKeys("BrowserStack");
-        element.submit();
-        Thread.sleep(5000);
-
-        assertEquals("BrowserStack - Google Search", driver.getTitle());
+//        driver.get("https://www.google.com/ncr");
+//        WebElement element = driver.findElement(By.name("q"));
+//        element.sendKeys("BrowserStack");
+//        element.submit();
+//        Thread.sleep(5000);
+//
+//        assertEquals("BrowserStack - Google Search", driver.getTitle());
     }
 
 }

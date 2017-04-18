@@ -19,12 +19,12 @@ public class ChromeOpenPage extends TestBase{
 
     @Test
     public void openPage(){
-        //driver.manage().window().maximize();
-        driver.get("https://www.google.com/");
-        wait.until(presenceOfElementLocated(By.cssSelector("input#lst-ib")));
-        driver.findElement(By.name("q")).sendKeys("maven search");
-        driver.findElement(By.name("btnG")).click();
-//        wait.until(titleIs("maven search - Google-søgning"));
+//        //driver.manage().window().maximize();
+//        driver.get("https://www.google.com/");
+//        wait.until(presenceOfElementLocated(By.cssSelector("input#lst-ib")));
+//        driver.findElement(By.name("q")).sendKeys("maven search");
+//        driver.findElement(By.name("btnG")).click();
+////        wait.until(titleIs("maven search - Google-søgning"));
     }
 
 }

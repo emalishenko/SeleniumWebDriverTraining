@@ -1,4 +1,4 @@
-package litecard.shop;
+package litecart.shop;
 
 /**
  * Created by olenamalishenko on 3/26/17.

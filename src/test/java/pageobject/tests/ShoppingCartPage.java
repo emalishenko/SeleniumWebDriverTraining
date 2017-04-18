@@ -1,37 +1,28 @@
-package litecard.shop;
+package pageobject.tests;
 
-import litecart.admin.TestBase;
-import org.junit.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import pageobject.pages.Page;
 
 import static org.openqa.selenium.support.ui.ExpectedConditions.*;
+import static org.openqa.selenium.support.ui.ExpectedConditions.stalenessOf;
 
 /**
- * Created by olenamalishenko on 4/5/17.
+ * Created by olenamalishenko on 4/18/17.
  */
-public class Checkout extends TestBase {
+public class ShoppingCartPage extends Page {
+    public ShoppingCartPage(WebDriver driver) {
+        super(driver);
+    }
 
-    @Test
-    public void AddToRemoveFromShoppingCart(){
-        //Adding first shopping item to shopping cart
-        int count = 1;
-        while(count != 4){
-            driver.get("http://localhost/litecart");
-            wait.until(titleIs("Online Store | My Store"));
-            driver.findElement(By.cssSelector("div.content li.product")).click();
-            wait.until(presenceOfElementLocated(By.cssSelector("button[name=add_cart_product]")));
-            driver.findElement(By.cssSelector("button[name=add_cart_product]")).click();
-            wait.until(attributeContains(By.cssSelector("span.quantity")
-                    , "textContent", String.valueOf(count)));
-            count++;
-        }
-        //Go to Shopping cart
+    public void open() {
         driver.findElement(By.cssSelector("div#cart a.link")).click();
         wait.until(presenceOfElementLocated(By.cssSelector("div#order_confirmation-wrapper")));
+    }
 
-        //Removing shop items one by one until one remains
-        count = driver.findElements(By.cssSelector("div#order_confirmation-wrapper td.item")).size();
+    public void removeProducts(){
+        int count = driver.findElements(By.cssSelector("div#order_confirmation-wrapper td.item")).size();
         WebElement elem;
         while(count > 1){
             elem = driver.findElement(By.cssSelector("li.shortcut img"));
@@ -47,5 +38,6 @@ public class Checkout extends TestBase {
         driver.findElement(By.cssSelector("div.viewport button[name=remove_cart_item]")).click();
         wait.until(stalenessOf(elem));
     }
+
 
 }
