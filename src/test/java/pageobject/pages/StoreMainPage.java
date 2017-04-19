@@ -1,4 +1,4 @@
-package pageobject.tests;
+package pageobject.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -22,16 +22,10 @@ public class StoreMainPage extends Page {
         wait.until(titleIs("Online Store | My Store"));
     }
 
-    public void addProductToCart(){
-        String quantity = driver.findElement(By.cssSelector("span.quantity")).getAttribute("textContent");
+    public void openProductDetailsPage(){
+        open();
         driver.findElement(By.cssSelector("div.content li.product")).click();
         wait.until(presenceOfElementLocated(By.cssSelector("button[name=add_cart_product]")));
-        driver.findElement(By.cssSelector("button[name=add_cart_product]")).click();
-        String newQuantity = ((Integer)(Integer.parseInt(quantity) + 1)).toString();
-        wait.until(attributeContains(By.cssSelector("span.quantity")
-                , "textContent", String.valueOf(newQuantity)));
+
     }
-
-
-
 }

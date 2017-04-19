@@ -1,7 +1,8 @@
 package pageobject.app;
 
-import pageobject.tests.ShoppingCartPage;
-import pageobject.tests.StoreMainPage;
+import pageobject.pages.ProductDetailsPage;
+import pageobject.pages.ShoppingCartPage;
+import pageobject.pages.StoreMainPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -14,31 +15,39 @@ public class Application {
 
     private StoreMainPage storeMainPage;
     private ShoppingCartPage shoppingCartPage;
-
+    private ProductDetailsPage productDetailsPage;
 
     public Application() {
         driver = new ChromeDriver();
         storeMainPage = new StoreMainPage(driver);
         shoppingCartPage = new ShoppingCartPage(driver);
+        productDetailsPage = new ProductDetailsPage(driver);
     }
 
     public void quit() {
         driver.quit();
     }
 
-
-    public void clearShoppingCart() {
+    public void clearCart(){
         shoppingCartPage.open();
-        shoppingCartPage.removeProducts();
+        int count = orderSummaryListSize();
+        while(count > 0){
+            shoppingCartPage.removeProduct();
+            count--;
+        }
     }
 
+    public int orderSummaryListSize(){
+        return shoppingCartPage.getOrderSummaryList().size();
+    }
 
-    public void addItemsToCart(int quantityToAdd) {
+    public void addProductsToCart(int quantityToAdd) {
         int added = 0;
         while(added != quantityToAdd){
             added++;
-            storeMainPage.open();
-            storeMainPage.addProductToCart();
+            storeMainPage.openProductDetailsPage();
+            productDetailsPage.addProductToCart();
         }
     }
+
 }

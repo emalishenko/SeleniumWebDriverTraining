@@ -1,6 +1,7 @@
 package pageobject.tests;
 
 import litecart.admin.TestBase;
+import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -14,8 +15,8 @@ public class Checkout extends TestBase {
 
     @Test
     public void canAddRemoveShoppingItems(){
-        app.addItemsToCart(3);
-        app.clearShoppingCart();
+        app.addProductsToCart(3);
+        app.clearCart();
+        Assert.assertTrue("Not all products are removed",app.orderSummaryListSize() == 0);
     }
-
 }

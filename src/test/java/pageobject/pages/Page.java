@@ -14,4 +14,5 @@ public class Page {
         this.driver = driver;
         wait = new WebDriverWait(driver, 10);
     }
+
 }
